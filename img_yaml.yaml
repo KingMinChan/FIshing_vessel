@@ -1,0 +1,14 @@
+train: //home/elicer/FIshing_vessel-1/imgdata
+val: //home/elicer/FIshing_vessel-1/imgdata
+nc: 10
+names:
+- "\uB09A\uC2DC\uC5B4\uC120"
+- "\uC800\uC778\uB9DD"
+- "\uCC44\uB09A\uAE30"
+- "\uC5F0\uC2B9"
+- "\uD1B5\uBC1C"
+- "\uC548\uAC15\uB9DD"
+- "\uD0C0\uB9DD"
+- "\uC720\uB9DD"
+- "\uBC94\uC7A5\uB9DD"
+- "\uB4F1\uAD11\uC870\uB9DD"
