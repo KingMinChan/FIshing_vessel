@@ -52,7 +52,8 @@ ___
 ## 3.위치 좌표 자동 추출
 ### 모델 아키텍처
 ---
-위치 정보 추출을 위해 **OCR(Optical Character Recognition)** 모델을 사용합니다. Tesseract와 같은 기존의 OCR 모델을 사용하거나, 딥러닝 기반의 **CRNN(Convolutional Recurrent Neural Network)** 모델을 활용하여 이미지에서 텍스트를 인식합니다. **CRNN** 모델은 합성곱 신경망을 통해 특징을 추출하고, 순환 신경망을
+위치 정보 추출을 위해 **easyocr(Optical Character Recognition)** 모델을 사용합니다. Tesseract와 같은 기존의 OCR 모델을 사용하거나, 딥러닝 기반의 **CRNN(Convolutional Recurrent Neural Network)** 모델을 활용하여 이미지에서 텍스트를 인식합니다. **CRNN** 모델은 합성곱 신경망을 통해 특징을 추출하고, 순환 신경망을
+
  통해 문맥 정보를 반영하여 텍스트를 인식합니다.
 
 **입력** : 입력은 위치 정보를 포함한 사전 처리된 어선 이미지입니다.
